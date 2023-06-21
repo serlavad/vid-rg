@@ -1,6 +1,7 @@
 from pprint import pprint
 
 from config import PATHS
+from domain.robot.driver import configure_driver
 from domain.tag.TagService import TagService
 from domain.video.VideoCutterService import VideoCutterService
 from domain.video.VideoService import VideoService
@@ -25,6 +26,9 @@ class VideoManager:
         markers_by_tag = self._tag_service.group_markers_by_tag(videos_with_markers)
         self._video_cut_service.generate_tag_images(markers_by_tag)
 
+    def launch_browser(self):
+        driver = configure_driver()
+        driver.get("https://example.com")
 
 def _generate_all_samples(videos: list[VideoWithMarkers]):
     video_cutter = VideoCutterService("{}/stashapp".format(PATHS.HOME), "{}/stashapp/cuts".format(PATHS.HOME))

@@ -44,6 +44,11 @@ __RGTagMap: dict[str, list[t | str]] = {
     "anal dildo": [t.tags_mapping.get("anal"), t.tags_mapping.get("dildo")],
     "slapping": [t.tags_mapping.get("slapping")],
     "handjob": [t.tags_mapping.get("handjob")],
+
+    "dildo": ["Dildo"],
+    "blowbang": ["Blowbang"],
+    "piss in mouth": ["Piss", "Pissing"],
+    
     "Adriana Chechik": t.tags_mapping.get("adriana_chechik"),
     "Jane Wilde": t.tags_mapping.get("jane_wilde"),
     "Martina Smeraldi": t.tags_mapping.get("martina_smeraldi"),
@@ -53,6 +58,8 @@ __RGTagMap: dict[str, list[t | str]] = {
     "Funky Town": "",
     "Ella Elastic": "",
     "Natalia Starr": t.tags_mapping.get("natalia_starr"),
+    "Emily Pink": "",
+    "Karolina Geiman": "",
 }
 
 RGTagMap: dict[str, list[str]] = {
