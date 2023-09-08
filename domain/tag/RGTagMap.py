@@ -48,6 +48,7 @@ __RGTagMap: dict[str, list[t | str]] = {
     "dildo": ["Dildo"],
     "blowbang": ["Blowbang"],
     "piss in mouth": ["Piss", "Pissing"],
+    "triple anal": [t.tags_mapping.get("triple_penetration")],
     
     "Adriana Chechik": t.tags_mapping.get("adriana_chechik"),
     "Jane Wilde": t.tags_mapping.get("jane_wilde"),
